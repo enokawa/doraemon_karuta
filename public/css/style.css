@@ -1,0 +1,6 @@
+#karuta-list table tr td {
+  padding: 20px;
+  border: solid 2px #ddd;
+  margin: 0 10px 0;
+  width: 250px;
+}
