@@ -12,8 +12,8 @@ td{
     box-shadow: 10px 10px 5px #888888;
     background: blue;
 }
-
 .karuta {
+  color: white;
   padding: 20px;
   width: 250px;
   border: solid 2px #ddd;
