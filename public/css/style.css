@@ -9,6 +9,11 @@ h1{
     margin: 0;
     padding: 0;
 }
+img{
+    position:0;
+    float:right;
+    margin-right:20px;
+}
 .quetioin-area{
     text-align: center;
     align:center
