@@ -1,7 +1,11 @@
 #karuta-list table tr td {
   margin: 0 10px 0;
 }
-
+h1{
+    background: blue;
+    color: white;
+}
+.
 .karuta {
   padding: 20px;
   width: 250px;
