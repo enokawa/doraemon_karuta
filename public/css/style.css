@@ -5,7 +5,12 @@ h1{
     background: blue;
     color: white;
 }
-.
+.quetioin-area{
+    text-align: center;
+}
+td{
+    box-shadow: 10px 10px 5px #888888;
+}
 .karuta {
   padding: 20px;
   width: 250px;
