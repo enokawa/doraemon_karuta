@@ -1,7 +1,5 @@
 #karuta-list table tr td {
   margin: 0 10px 0;
-  box-shadow: 10px 10px 5px #888888;
-  background: blue;
 }
 h1{
     background: blue;
@@ -12,10 +10,11 @@ h1{
     text-align: center;
     align:center
 }
-
 .karuta {
   color: white;
   padding: 20px;
   width: 250px;
   border: solid 2px #ddd;
+  background: blue;
+  box-shadow: 10px 10px 5px #888888;
 }
