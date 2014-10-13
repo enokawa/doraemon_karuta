@@ -1,20 +1,18 @@
 #karuta-list table tr td {
   margin: 0 10px 0;
+  box-shadow: 10px 10px 5px #888888;
+  background: blue;
 }
 h1{
     background: blue;
     color: white;
     text-align: center;
-
 }
 .quetioin-area{
     text-align: center;
     align:center
 }
-td{
-    box-shadow: 10px 10px 5px #888888;
-    background: blue;
-}
+
 .karuta {
   color: white;
   padding: 20px;
