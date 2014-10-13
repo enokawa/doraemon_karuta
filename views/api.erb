@@ -1,0 +1,4 @@
+<% key = ENV["ASAHI_KENSAKU_API"] %>
+<% doc = REXML::Document.new(open("http://54.92.123.84/search?q=Id:A1001120070331M013-13-003&ackey=#{key}")) %>
+<% contents = doc.elements['response/result/doc/Body'] %>
+<p><%= contents %></p>
