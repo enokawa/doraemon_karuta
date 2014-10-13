@@ -1,4 +1,6 @@
 <% key = ENV["ASAHI_KENSAKU_API"] %>
-<% doc = REXML::Document.new(open("http://54.92.123.84/search?q=Id:A1001120070331M013-13-003&ackey=#{key}")) %>
-<% contents = doc.elements['response/result/doc/Body'] %>
-<p><%= contents %></p>
+<% doc = REXML::Document.new(open("http://54.92.123.84/search?q=Title:%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%20AND%20ReleaseDate:2010-01-10&ackey=#{key}")) %>
+<% question = doc.elements['response/result/doc/Body'] %>
+<p><%= question %></p>
+<% answer = doc.elements['response/result/doc[2]/Body'] %>
+<p><%= answer %></p>
