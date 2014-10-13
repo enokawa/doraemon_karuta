@@ -10,7 +10,9 @@ h1{
 }
 td{
     box-shadow: 10px 10px 5px #888888;
+    background: blue;
 }
+
 .karuta {
   padding: 20px;
   width: 250px;
